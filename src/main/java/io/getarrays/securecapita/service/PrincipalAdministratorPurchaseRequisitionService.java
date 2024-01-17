@@ -1,0 +1,9 @@
+package io.getarrays.securecapita.service;
+
+import io.getarrays.securecapita.domain.AdminPurchaseRequisition;
+import io.getarrays.securecapita.domain.PrincipalAdministratorPurchaseRequisition;
+
+public   interface PrincipalAdministratorPurchaseRequisitionService {
+
+    PrincipalAdministratorPurchaseRequisition createPrincipalAdministratorPurchaseRequisition(PrincipalAdministratorPurchaseRequisition principalAdministratorPurchaseRequisition, Long userId);
+}
